@@ -35,6 +35,11 @@ just upload-demo-reducer release local
 ### Local Todo Demo
 
 ```bash
+cd lib/sqlsync-react
+pnpm i
+pnpm build
+cd ../..
+
 cd demo/frontend
 pnpm i
 pnpm dev
